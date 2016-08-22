@@ -11,7 +11,7 @@ import App from './components/App/App'
 import Index from './components/Index/Index'
 
 //Containers
-import topicContainer from './container/topicContainer'
+import topicContainer from './container/TopicContainer'
 import AllQuestionsContainer from './container/AllQuestionContainer'
 import mainMenuContainer from './container/MainMenuContainer'
 import NotFound from './components/NotFound/NotFound'
