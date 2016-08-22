@@ -1,0 +1,31 @@
+@import '../../styles/constants';
+
+.container{
+  margin: auto;
+  //max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+
+  @media all and (max-width: $site-width-medium ){
+    flex-direction: column;
+  }
+  @media all and (min-width: $site-width-medium){
+    min-height: 90vh;
+    margin-top:10vh;
+    flex-direction: row;
+  }
+}
+
+.content{
+
+  $content-margin: 2em;
+
+  padding-left: $content-margin/2;
+  padding-right: $content-margin/2;
+
+  @media all and (min-width: $site-width-medium ){
+    width: calc(75% - #{$content-margin});
+    overflow: hidden;
+  }
+}

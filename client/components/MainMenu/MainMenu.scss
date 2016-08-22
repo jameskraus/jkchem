@@ -1,0 +1,36 @@
+@import '../../styles/constants';
+
+.menuTitle{
+  width:100%;
+  a {
+    text-decoration:none;
+    color: $font-color;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.menuContainer {
+  background-color: $background-grey;
+  @media all and (min-width: $site-width-medium){
+    min-width: 25%;
+  }
+}
+.menu{
+  margin:auto;
+  display:flex;
+  list-style: none;
+  padding-left: $menu-margin/2;
+  padding-right: $menu-margin/2;
+  flex-wrap: wrap;
+
+  li{
+    display:block;
+    flex-grow: 1;
+    // margin:auto;
+    }
+  @media all and (min-width: $site-width-medium){
+    display: inline-block;
+    float: right;
+  }
+}

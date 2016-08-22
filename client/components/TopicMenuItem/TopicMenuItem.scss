@@ -1,0 +1,54 @@
+
+@import '../../styles/constants';
+
+.menuitem {
+  text-decoration: none;
+  display: inline-block;
+  color: $font-color;
+  padding-top: .8em;
+  padding-bottom: .8em;
+  margin-left: 12px;
+  border-left: 4px solid rgba(0,0,0,0);
+  padding-left: 6px;
+  position: relative;
+  left: -10px;
+
+  @media screen and (min-width: $site-width-medium) {
+    //width: $menu-medium-width;
+  }
+}
+
+.menuitem:hover{
+  @extend .blockleft;
+  .title{
+    text-decoration: underline;
+  }
+}
+
+.blockleft{
+  @extend .menuitem;
+  // Just avoids showing the border when window is too small
+  @media all and (min-width: $site-width-medium){
+    border-left: 4px solid #c2c2c2;
+
+  }
+}
+
+.current{
+  @extend .blockleft;
+  @media all and (min-width: $site-width-medium) {
+
+    border-left: .3em solid $primary-blue;
+  }
+  color: $primary-blue;
+}
+
+.title{
+
+}
+
+.problemCount{
+  //text-decoration:none;
+  font-size: .8em;
+  font-weight: 300;
+}

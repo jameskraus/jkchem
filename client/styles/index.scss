@@ -1,0 +1,44 @@
+// Importing normalize.css
+@import '../../node_modules/normalize.css/normalize.css';
+@import './constants.scss';
+
+// Using Roboto Condensed font
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400);
+@import url(https://use.fontawesome.com/dff9752e36.css);
+
+
+.root {
+  font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html {
+  background-color: $background-white;
+  color: $font-color;
+  @media all and (min-width: $site-width-medium){
+    background-image: linear-gradient(
+                    90deg,
+                    $background-grey,
+                    $background-grey 25%,
+                    $background-white 25%,
+                    $background-white 100%);
+  }
+}
+
+a {
+  color: ( $primary-blue/2 + blue/2 )
+}
+
+button {
+  background: $background-grey;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: .3em;
+  padding-left: .6em;
+  padding-right: .6em;
+
+  &:active{
+    box-shadow: inset 0 0 5px grey;
+  }
+}

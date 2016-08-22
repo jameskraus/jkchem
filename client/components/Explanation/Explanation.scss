@@ -1,0 +1,18 @@
+.toggle{
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  display: block;
+}
+
+.explanation {
+  border-left: 3px solid lightgrey;
+  position: relative;
+  padding-left: 6px;
+  left: -9px;
+
+  img{
+    max-width: 100%
+  }
+}

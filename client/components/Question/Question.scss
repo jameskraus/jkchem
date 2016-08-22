@@ -1,0 +1,20 @@
+@import '../../styles/constants.scss';
+
+.question {
+//  padding: 20px;
+  border-color: #b5d4d1;
+//  border: solid 3px;
+  h3 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  @media all and (min-width: $site-width-medium){
+    width: $content-medium-width;
+    flex-grow: 1;
+  }
+}

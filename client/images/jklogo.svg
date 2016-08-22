@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="17.638332mm"
+   height="17.638329mm"
+   viewBox="0 0 62.498028 62.498014"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="jklogo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8"
+     inkscape:cx="37.452257"
+     inkscape:cy="38.182557"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-page="true"
+     inkscape:window-width="1500"
+     inkscape:window-height="937"
+     inkscape:window-x="-8"
+     inkscape:window-y="1192"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-136.57598,-41.133839)">
+    <path
+       inkscape:connector-curvature="0"
+       id="littleK"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 176.25777,78.011752 -1.48438,1.66016 0,6.48437 -5.52734,0 0,-21.155691 5.52734,0 0,7.37835 0.6836,-1.027339 3.82812,-6.328129 6.58203,0 -6.13281,8.710939 6.71875,12.42187 -6.32813,0 z"
+       sodipodi:nodetypes="cccccccccccccc"
+       clip-path="none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="bigJ"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:medium;line-height:125%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed,  Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 159.43911,57.718782 5.74219,0 0,19.6875 q 0,4.14063 -2.30469,6.64063 -2.30469,2.5 -5.9375,2.5 -3.90625,0 -6.07422,-2.32422 -2.16797,-2.32422 -2.16797,-6.46484 l 5.76172,0 q 0,4.02343 2.48047,4.02343 2.5,0 2.5,-4.64843 l 0,-19.41407 z" />
+    <rect
+       style="opacity:0.95200004;fill:none;fill-opacity:0.35260117;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="surroundingBox"
+       width="60.725643"
+       height="60.725632"
+       x="137.46217"
+       y="42.020031" />
+  </g>
+</svg>

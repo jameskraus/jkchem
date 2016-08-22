@@ -1,0 +1,55 @@
+@import "../../styles/constants";
+
+.answer{
+  padding-left: 1em;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  max-width: 500px;
+  margin-top:.2em;
+  background:white;
+  position:relative;
+}
+
+.qamark{
+  position: absolute;
+  top:0;
+  left:-.8em;
+  width:3px;
+  height:100%;
+  border-radius:3px;
+
+}
+
+.selected{
+  border-color: $primary-blue;
+  .qamark{
+    background:$primary-blue;
+  }
+}
+
+.correct{
+  composes: answer;
+  border: 1px solid green;
+  box-shadow:0 0 4px green;
+}
+
+.incorrect{
+  composes: answer;
+  border: 1px solid red;
+  box-shadow:0 0 4px red;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: $font-color;
+}
+
+.answerIndex{
+  font-weight: 500;
+}
+
+.answerchoice{
+  padding: .5em;
+}
