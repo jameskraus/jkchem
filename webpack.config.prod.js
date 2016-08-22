@@ -49,22 +49,18 @@ module.exports = {
                 ]
             },
             {
-                test: /.svg/,
-                include: [
-                    path.resolve(__dirname, 'client/images'),
-                ],
+                test: /\.svg/,
+                include: /icons/,
                 loaders: [
-                    'babel?presets[]=es2015,presets[]=react',
+                    'babel?' + JSON.stringify(babelQuery),
                     'svg-react',
-                    'svgo-loader'
+                    'svgo'
                 ]
             },
             {
                 test: /\.(svg|png|jpg)/,
                 loader: 'file-loader',
-                exclude: [
-                    path.resolve(__dirname, 'client/images'),
-                ]
+                exclude: /icons/
             }
         ]
     }

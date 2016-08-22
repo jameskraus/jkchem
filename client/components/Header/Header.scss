@@ -19,6 +19,7 @@
   &:hover{
     fill: $primary-blue;
     color: $primary-blue;
+    stroke: $primary-blue;
   }
 
   @media all and ( min-width: $site-width-medium){
