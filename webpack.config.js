@@ -7,6 +7,7 @@ var babelQuery = {
 }
 
 module.exports = {
+    debug: true,
     entry: [
         'webpack-hot-middleware/client',
         './client/index.js'
@@ -18,7 +19,7 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
+        //new webpack.NoErrorsPlugin()
     ],
     module: {
         loaders: [
@@ -37,24 +38,18 @@ module.exports = {
                 ]
             },
             {
-                test: /.svg/,
-                include:    [
-                        path.resolve(__dirname, 'client/images'),
-                        path.resolve(__dirname, 'client/icons'),
-
-                ],
+                test: /\.svg/,
+                include: /icons/,
                 loaders: [
                     'babel?' + JSON.stringify(babelQuery),
                     'svg-react',
-                    'svgo-loader'
+                    'svgo'
                 ]
             },
             {
                 test: /\.(svg|png|jpg)/,
                 loader: 'file-loader',
-                exclude:    [
-                    path.resolve(__dirname, 'client/images'),
-                ]
+                exclude: /icons/
             }
         ]
     }

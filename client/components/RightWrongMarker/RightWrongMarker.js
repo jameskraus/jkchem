@@ -3,8 +3,8 @@ import React, {PropTypes} from 'react';
  *
  * @TODO Fix importing these icons. Currently returns an error. https://github.com/jameskraus/jkchem/issues/1
  */
-//import Correct   from '../../icons/correct.svg'
-//import Incorrect from '../../icons/incorrect.svg'
+import Correct   from '../../icons/correct.svg'
+import Incorrect from '../../icons/incorrect.svg'
 
 
 const MarkerStyle = {
@@ -23,8 +23,7 @@ class RightWrongMarker extends React.Component {
         const {isCorrect} = this.props;
 
         return (
-            <div></div>
-            //isCorrect ? <Correct style={MarkerStyle}/> : <Incorrect style={MarkerStyle}/>
+            isCorrect ? <Correct style={MarkerStyle}/> : <Incorrect style={MarkerStyle}/>
         );
     }
 }
